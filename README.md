@@ -9,15 +9,15 @@
 
 ## 使用方法
 1. 克隆或下载本项目，放置于`HoshinoBot/hoshino/modules`目录下：
-```git clone https://github.com/bbareo/carryover_cal```
-2. 在`HoshinoBot/hoshino/config/__bot__.py`文件的`MODULES_ON`中添加值`carryover_cal`
-3. 重启Hoshino
+   ```git clone https://github.com/bbareo/carryover_cal```
+3. 在`HoshinoBot/hoshino/config/__bot__.py`文件的`MODULES_ON`中添加值`carryover_cal`
+4. 重启Hoshino
 
 ## 使用举例
 ![example](https://raw.githubusercontent.com/bbareo/carryover_cal/main/20230301225446.png)
 
 ## 待更新
-当时间前有任何非空字符时，将不进行转换。
-目的是为了避免技能中含有数字（如“TA3”、“リンケージ２段”等）时，会被匹配并参与转换。
+当时间前有任何非空字符时，将不进行转换。<br>
+目的是为了避免技能中含有数字（如“TA3”、“リンケージ２段”等）时，会被匹配并参与转换。<br>
 但这样会导致在操作被括号包裹等特殊情况下，该行时间将不被转换，如图所示：
 ![err_eg](https://raw.githubusercontent.com/bbareo/carryover_cal/main/20230301225454.jpg)
