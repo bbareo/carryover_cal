@@ -9,7 +9,9 @@
 
 ## 使用方法
 1. 克隆或下载本项目，放置于`HoshinoBot/hoshino/modules`目录下：
-   ```git clone https://github.com/bbareo/carryover_cal```
+2. 
+```git clone https://github.com/bbareo/carryover_cal```
+
 3. 在`HoshinoBot/hoshino/config/__bot__.py`文件的`MODULES_ON`中添加值`carryover_cal`
 4. 重启Hoshino
 
