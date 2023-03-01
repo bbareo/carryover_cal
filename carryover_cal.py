@@ -37,7 +37,7 @@ async def carryover_cal(bot, ev):
     if match is not None:
         time = check_time(match.group().replace(':', '').replace('：',''))
         if time < 20:
-            time == -1
+            time = -1
         if time != -1:
             diff = 90 - time
             if time > 59:
